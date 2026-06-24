@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.4.4 - 2026-06-09
+- Fixed the App Store registering the release as 0.4.2: the 0.4.3 tag was built from a commit whose info.xml still carried the old version, so no update was offered. This release ships the correct 0.4.4 metadata together with the light-mode readability fixes.
+
 ## 0.4.3 - 2026-06-09
 - Fixed unreadable settlement ("who pays whom") chips in light mode by using the dedicated readable text colors and a neutral chip background.
 - Highlighted the current user's share with readable main text instead of the theme primary color, and replaced a hard-coded gray with the themed variable.
